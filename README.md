@@ -27,11 +27,12 @@ To run run_analysis.R:
 1. Install the [dplyr](http://cran.r-project.org/web/packages/dplyr/index.html) package.
 1. Download the dataset, and extract the zip file to a directory
 1. Set the working directory to the directory which contains the `UCI HAR Dataset` folder. During my testing, I placed run_analysis.R in the directory which contained the `UCI HAR Dataset` folder, therefore, run_analysis.R and the `UCI HAR Dataset` folder were siblings.  I set the working directory to the parent folder, like so:
-```
-Parent directory/ (also the working directory)
+    
+    ```
+    Parent directory/ (also the working directory)
         run_analysis.R
         UCI HAR Dataset/
-```
+    ```
 1. Run run_analysis.R
 
 ## How run_analysis.R works
